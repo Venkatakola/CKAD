@@ -4,7 +4,7 @@ metadata:
   name: myapp # Dictionary containing metadata about the object
   labels:
     app.kubernetes.io/name: myapp
-spec:
+spec: # Dictionary containing metadata about the spec
   containers:
   - name: myapp
     image: <Image>
