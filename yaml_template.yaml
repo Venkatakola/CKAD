@@ -16,4 +16,4 @@ spec: # Dictionary containing metadata about the spec
         memory: "128Mi"
         cpu: "500m"
     ports:
-      - containerPort: <Port>
+      - containerPort: 8080
